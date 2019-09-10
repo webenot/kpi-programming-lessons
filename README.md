@@ -1,3 +1,3 @@
-# HowProgrammingWorks Lesson Exercises Solutions
+# HowProgrammingWorks Lessons Exercises Solutions
 
 **[IP9X Program](https://github.com/HowProgrammingWorks/Index/blob/master/IP9X.md) Exercises**
