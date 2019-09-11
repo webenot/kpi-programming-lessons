@@ -9,7 +9,7 @@ const usersData = [
 
 const findPhoneByName = name => {
   for (const person of usersData) {
-    if (name === person.name) {
+    if (person.includes(name)) {
       return person.phone;
     }
   }
