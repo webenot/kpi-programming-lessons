@@ -1,7 +1,8 @@
 'use strict';
 
 //eslint error - variable is never reassigned
-let userName = 'Halyna';
+//let userName = 'Halyna';
+const userName = 'Halyna';
 const YEAR_OF_BIRTH = 1982;
 
 const printHello = name => {
