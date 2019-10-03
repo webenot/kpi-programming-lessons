@@ -5,11 +5,7 @@ const countTypes = arr => {
 
   for (const el of arr) {
     const type = typeof el;
-    if (!typesCounts[type]) {
-      typesCounts[type] = 1;
-    } else {
-      typesCounts[type]++;
-    }
+    typesCounts[type] = ++typesCounts[type] || 1;
   }
 
   return typesCounts;

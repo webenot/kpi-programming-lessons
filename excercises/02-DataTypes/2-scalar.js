@@ -1,6 +1,6 @@
 'use strict';
 
-const inc = number => number + 1;
+const inc = number => ++number;
 
 //const a = 5;
 
